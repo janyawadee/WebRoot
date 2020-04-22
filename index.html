@@ -1,27 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <title>Janyawadee Meeboonnak</title>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel= "stylesheet" type="text/css" href="CSS/style.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
 </head>
     
 <body>
-    <div id= "header">
-    <h1>Janyawadee Meeboonnak</h1>
-    </div> 
-    <br>
-    <div id="content">
-        <div>
-            <img src="Images/profilepicture.jpg" class="image">
-            <br>
-        </div>
-        <div>
-            <h3>My name is Janyawadee, but I would like to go by Kat. I originally from Thailand. I moved to the State since 2013.</h3>
-            <h4>I was an IT Support before I moved here. I am currently work at Panasonic as a report developer. My plan for my future career is DBA</h4>
-        </div>
-    </div> 
-
+<div class="header">
+  <h1>My Bootstrap Page</h1>
+</div>
+ <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="html/resources.html">Resources</a></li>
+    </ul>
+  </div>
+</nav>  
     
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">    
+        <img src="images/profilepicture.jpg" class="img-thumbnail">
+        <h4>Janyawadee Meeboonnak</h4>
+        <p>I am originally from Thailand. I moved to the State since 2013</p>
+        <p>I am currently work as a report developer. My plan for my future career is DBA</p>
+    </div>
+    <div class="col-sm-8">
+        <h3>About me</h3>
+        <p>Motivated and ambitious Database reports developer with experience using SQL Server Management Studio and Visual Studio. I am capable of working with a team as well as individually.</p>
+        <p>Hard worker with a desire to use updated SQL skills in the field to assist with achieving goals and objectives.</p>
+
+    </div>
+
+  </div>
+</div>
 </body>
 </html>
