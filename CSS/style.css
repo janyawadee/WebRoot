@@ -5,23 +5,20 @@ body{
     font-family: sans-serif;
 }
 
-#header{
-    color: blue;
-    background-color: lightblue;
-    text-align: center;
-    font-size: 10px;
-    height: 50px;
-    padding: 10px;
-}
-
-h3,h4 {
-  color: blue;
+.header 
+{
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
   text-align: center;
-  line-height: 0.8;
 }
 
-.image{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.col-sm-4 h4
+{
+  color: #9933cc;  
+}
+
+.col-sm-8 h3
+{
+  color: #9933cc;  
 }
